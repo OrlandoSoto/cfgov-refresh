@@ -40,10 +40,11 @@ function MegaMenu( element ) {
     var initEventsBinded = _initEvents.bind( this );
     var menuItem;
     var submenu;
+    var childSel = '.' + BASE_CLASS + '_content-link__has-children';
     for ( var i = 1, len = _menuItems.length; i < len; i++ ) {
       menuItem = _menuItems[i];
       if ( menuItem.querySelector( '.u-link__disabled' ) === null &&
-           menuItem.querySelector( '.o-mega-menu_content-link__has-children' ) !== null ) {
+           menuItem.querySelector( childSel ) !== null ) {
         submenu =
           new FlyoutMenu( menuItem ).init();
         _subMenus[menuItem] = submenu;

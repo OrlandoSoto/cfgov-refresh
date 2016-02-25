@@ -2,7 +2,7 @@
 
 // Constant for the name of the JS hook used
 // for attaching JS behavior to HTML DOM elements.
-var JS_HOOK = 'data-js-hook'
+var JS_HOOK = 'data-js-hook';
 
 /**
  * Empty function that will do nothing.

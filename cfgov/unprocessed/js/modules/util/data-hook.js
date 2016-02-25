@@ -47,7 +47,7 @@ function remove( element, attr ) {
  * @returns {boolean} True if the data-* hook value exists, false otherwise.
  */
 function contains( element, attr ) {
- var values = element.getAttribute( standardType.JS_HOOK );
+  var values = element.getAttribute( standardType.JS_HOOK );
   // TODO: This will match variations on the class name,
   //       like 'flyout-menu-var', which would not be correct.
   //       IndexOf should be updated to use a regex instead.
