@@ -28,8 +28,7 @@ function GlobalSearch( element ) { // eslint-disable-line max-statements, no-inl
     atomicCheckers.validateDomElement( element, BASE_CLASS, 'GlobalSearch' );
   var _triggerSel = '.' + BASE_CLASS + '_trigger';
   var _triggerDom = _dom.querySelector( _triggerSel );
-  var _flyoutMenu =
-    new FlyoutMenu( _dom ).init();
+  var _flyoutMenu = new FlyoutMenu( _dom ).init();
   var _contentDom = _dom.querySelector( '.' + BASE_CLASS + '_content' );
   var _searchInputDom;
   var _searchBtnDom;
