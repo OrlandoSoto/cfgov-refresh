@@ -29,7 +29,7 @@ function GlobalSearch( element ) { // eslint-disable-line max-statements, no-inl
   var _triggerSel = '.' + BASE_CLASS + '_trigger';
   var _triggerDom = _dom.querySelector( _triggerSel );
   var _flyoutMenu =
-    new FlyoutMenu( _dom, _triggerSel, '.' + BASE_CLASS + '_content' ).init();
+    new FlyoutMenu( _dom ).init();
   var _contentDom = _dom.querySelector( '.' + BASE_CLASS + '_content' );
   var _searchInputDom;
   var _searchBtnDom;

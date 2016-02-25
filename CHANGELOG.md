@@ -26,6 +26,7 @@ Given the `MAJOR.MINOR.PATCH` pattern, here is how we decide to increment:
 - Added Info Unit Macro.
 - URL field to the Post Preview organism
 - Frontend: Added overlay atom.
+- Frontend: Added data-* attribute JS utility class.
 
 ### Changed
 - Converted the project to Capital Framework v3
@@ -46,6 +47,7 @@ Given the `MAJOR.MINOR.PATCH` pattern, here is how we decide to increment:
 - Breadcrumbs for Wagtail pages now handled by Wagtail
 - Changed Wagtail pages extending from `layout-side-nav.html` to use new side navigation handling
 - Changed FilterableListControls.js to add validation for email, date, and checkbox fields. 
+- Restructured mega menu to include submenus recursively to allow for a third-level.
 
 ### Removed
 - Removed normalize and normalize-legacy from main less file because CF already includes it.
