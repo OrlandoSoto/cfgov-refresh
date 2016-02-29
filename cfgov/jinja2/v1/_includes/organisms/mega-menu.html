@@ -18,6 +18,7 @@
 
    ========================================================================== #}
 
+{# TODO: Move to external macro so it can be shared with secondary nav. #}
 {%- macro _classes( nav_depth, suffix='' ) -%}
 {%- set general_class = base_class ~ '_content' -%}
 {%- set depth_class = base_class ~ '_content-' ~ nav_depth -%}
