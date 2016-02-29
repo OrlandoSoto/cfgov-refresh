@@ -48,6 +48,7 @@ Given the `MAJOR.MINOR.PATCH` pattern, here is how we decide to increment:
 - Breadcrumbs for Wagtail pages now handled by Wagtail
 - Changed Wagtail pages extending from `layout-side-nav.html` to use new side navigation handling
 - Changed FilterableListControls.js to add validation for email, date, and checkbox fields. 
+- Fix blog post template to use sheerlike related posts method.
 
 ### Removed
 - Removed normalize and normalize-legacy from main less file because CF already includes it.
