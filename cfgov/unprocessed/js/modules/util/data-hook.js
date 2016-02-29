@@ -55,7 +55,7 @@ function contains( element, attr ) {
 }
 
 module.exports = {
-  add: add,
-  remove: remove,
-  contains: contains
+  add:      add,
+  contains: contains,
+  remove:   remove
 };
